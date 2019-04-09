@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/mode_selector_list"
+        android:entryValues="@array/mode_selector_list"
+        android:key="@string/pref_gameMode"
+        android:title="@string/game_difficulty_setting"
+        android:summary="@string/game_difficulty_description"
+        android:persistent="true"
+        android:defaultValue="easy">
+
+    </ListPreference>
+
+</PreferenceScreen>

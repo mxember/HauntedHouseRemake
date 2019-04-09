@@ -1,0 +1,21 @@
+<resources>
+<string name="app_name">Haunted House</string>
+<string name="action_settings">Settings</string>
+<string name="play_game">Play Game</string>
+<string name="high_scores">High Scores</string>
+<string name="easy_mode_title">Easy Mode</string>
+<string name="hard_mode_title">Hard Mode</string>
+<string name="game_difficulty_setting">Game Difficulty Selector</string>
+<string name="game_difficulty_description">Select the game difficulty</string>
+<string name="title_activity_settings">Settings</string>
+<string name="title_activity_high_score">HighScoreActivity</string>
+<string name="title_activity_game">GameActivity</string>
+<string name="easyModeScore">Easy Mode High Scores</string>
+<string name="hardModeScore">Hard Mode High Scores</string>
+<string name="restarting_game">Restarting Game</string>
+<string name="pref_gameMode">gameModeKey</string>
+    <string name="win_game">You Win!</string>
+    <string name="cancel">Cancel</string>
+    <string name="share_score">Share Score to: </string>
+    <string name="game_over">Game Over</string>
+</resources>

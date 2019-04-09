@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_selector_list">
+        <item>Easy Mode</item>
+        <item>Hard Mode</item>
+    </string-array>
+
+    <string-array name="win_dialog_items">
+        <item>Share Score</item>
+        <item>Try Again</item>
+    </string-array>
+</resources>

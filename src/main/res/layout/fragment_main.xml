@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schyoutemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashScreenLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/gameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="@dimen/padding"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:id="@+id/splashScreenLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/playGameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gameName"
+            android:layout_margin="@dimen/padding"
+            android:layout_weight="1"
+            android:background="@color/button_color"
+            android:padding="@dimen/padding"
+            android:text="@string/play_game"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/highScoreButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/playGameButton"
+            android:layout_margin="@dimen/padding"
+            android:layout_weight="1"
+            android:background="@color/button_color"
+            android:padding="@dimen/padding"
+            android:text="@string/high_scores"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/preferencesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/highScoreButton"
+            android:layout_margin="@dimen/padding"
+            android:layout_weight="1"
+            android:background="@color/button_color"
+            android:padding="@dimen/padding"
+            android:text="Preferences"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
